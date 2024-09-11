@@ -1,0 +1,21 @@
+6 
+1 OOP is a concept in cpp to privatize the data
+2 complexity of the program may increase
+3 hiding of data from other code
+4 presence of code in multiple shapes
+5 maintains the ADT of the class
+1 oop is used to privatize the data
+2 code reusability and code privatization
+3 inhertience , abstraction , and encapsultaion
+4 inheritence is used to inherit data from parent classs to child class data can be data members or member function both
+5 presence of data in multiple shapes is called as abstraction in OOP
+1 oop is a concept in cpp
+2 to privatize the data
+3 code reusability and code privatization
+4 inheritence encapsulation abstraction polymorphism
+5 class{ public: private: protecetd: }
+1 it is an instance of the class
+2 inheritence is used for code reusability
+3 idk
+4 data hiding
+5 inhertiecne abstraction polymorphism

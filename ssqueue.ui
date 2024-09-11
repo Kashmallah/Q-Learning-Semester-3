@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SSqueue</class>
+ <widget class="QWidget" name="SSqueue">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wide Latin</family>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(210, 255, 161);</string>
+     </property>
+     <property name="text">
+      <string>ENQUEUE</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.472, y1:1, x2:0.449, y2:0, stop:0 rgba(255, 138, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 700 16pt &quot;Terminal&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>INDEXES</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0.505682, y1:0.340682, x2:0.534091, y2:1, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+font: 700 16pt &quot;Terminal&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>VALUES</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="3">
+    <widget class="QListWidget" name="listWidget_2">
+     <property name="styleSheet">
+      <string notr="true"> 
+border: 4px solid qlineargradient(spread:pad, x1:0.472, y1:1, x2:0.449, y2:0, stop:0 rgba(255, 138, 0, 255), stop:1 rgba(255, 255, 255, 255));;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="3">
+    <widget class="QListWidget" name="listWidget">
+     <property name="styleSheet">
+      <string notr="true"> 
+border: 4px solid qlineargradient(spread:pad, x1:0.505682, y1:0.340682, x2:0.534091, y2:1, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wide Latin</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(197, 254, 255);</string>
+     </property>
+     <property name="text">
+      <string>DEQUEUE</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" colspan="2">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="minimumSize">
+      <size>
+       <width>120</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1" colspan="2">
+    <widget class="QLCDNumber" name="lcdNumber">
+     <property name="font">
+      <font>
+       <family>Matura MT Script Capitals</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(193, 207, 255);
+color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(0, 255, 159, 69), stop:0.159091 rgba(255, 244, 71, 130), stop:0.340909 rgba(247, 78, 0, 208), stop:0.363636 rgba(247, 255, 0, 208), stop:0.375 rgba(255, 255, 0, 69), stop:0.511364 rgba(251, 255, 0, 145), stop:0.517045 rgba(255, 255, 213, 255), stop:0.518717 rgba(255, 218, 71, 130), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+border-color: rgb(255, 213, 46);</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

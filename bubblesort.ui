@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Bubblesort</class>
+ <widget class="QWidget" name="Bubblesort">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(85, 170, 0);
+background-color: rgb(222, 255, 210);</string>
+     </property>
+     <property name="text">
+      <string>                                                          BUBBLE SORTING</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 255);
+
+font: 900 9pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ENTER ARRAY:-</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineEdit"/>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QListWidget" name="listWidget"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 255);
+
+font: 900 9pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>STEP-01</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="2">
+    <widget class="QListWidget" name="listWidget_2"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 255);
+
+font: 900 9pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>STEP-02</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="2">
+    <widget class="QListWidget" name="listWidget_3"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 255);
+
+font: 900 9pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>STEP-03</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0" colspan="2">
+    <widget class="QListWidget" name="listWidget_4"/>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 255);
+
+font: 900 9pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>STEP-04</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0" colspan="2">
+    <widget class="QListWidget" name="listWidget_5"/>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 255);
+
+font: 900 9pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>STEP-05</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0" colspan="2">
+    <widget class="QListWidget" name="listWidget_6"/>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="label_7">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 255);
+
+font: 900 9pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>STEP-06</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0" colspan="2">
+    <widget class="QListWidget" name="listWidget_7"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

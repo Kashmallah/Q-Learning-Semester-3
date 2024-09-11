@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Testr</class>
+ <widget class="QWidget" name="Testr">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>512</width>
+    <height>394</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="styleSheet">
+      <string notr="true">QTabWidget {
+    /* Set the background color to a shade of blue */
+	background-color: rgb(255, 117, 25);
+   ; /* Set the text color to white */
+	color: rgb(170, 152, 152);
+    font-family: Arial, sans-serif; /* Set the font family */
+}
+
+/* Apply styles to the individual tabs */
+QTabBar::tab {
+     /* Set the background color for each tab */
+	background-color: rgb(255, 122, 33);
+     /* Set the text color for each tab */
+	color: rgb(255, 255, 255);
+	font: 700 12pt &quot;Terminal&quot;;
+    padding: 8px 16px; /* Add padding to the tabs for better spacing */
+}
+
+/* Apply styles to the selected tab */
+QTabBar::tab:selected {
+; /* Set a different color for the selected tab */
+	background-color: rgb(255, 65, 65);
+}
+
+/* Apply styles to the content area of the tabs */
+QTabWidget::pane {
+    border: 1px solid rgb(255, 218, 85); /* Add a border around the content area */
+    background-color: rgb(255, 196, 58); /* Set the background color for the content area */
+	color: rgb(255, 181, 70);
+    padding: 10px; /* Add padding to the content area for better spacing */
+}
+</string>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <property name="elideMode">
+      <enum>Qt::ElideNone</enum>
+     </property>
+     <property name="tabsClosable">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Welcome</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="cursor">
+          <cursorShape>OpenHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Rockwell&quot;;
+border: 4px solid rgb(255, 154, 39);
+background-color: rgb(255, 197, 49);
+color: rgb(255, 255, 255);
+</string>
+         </property>
+         <property name="text">
+          <string>Rule 1: Ensure a solid grasp of fundamental concepts such as data structures (arrays, linked lists, trees, graphs, etc.), algorithms (sorting, searching, traversal, etc.), and their properties, operations, and complexities.
+Rule 2: Review key terminology and definitions associated with DSA, including abstract data types (ADTs), time complexity, space complexity, and common algorithm design paradigms.
+Rule 3: Learn to analyze algorithms based on their time and space complexities, considering best-case, worst-case, and average-case scenarios.
+Rule 4: Understand how to compare and contrast different algorithms for the same problem, considering factors such as efficiency, scalability, and suitability for specific use cases.
+Following these rules will help you to attempt these DSA questions.</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 170, 0);
+font: 700 13pt &quot;Small Fonts&quot;;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>START</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_6">
+      <attribute name="title">
+       <string>Generate Questions</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label_2">
+         <property name="cursor">
+          <cursorShape>SplitHCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 40pt &quot;Sitka Banner&quot;;
+color: qlineargradient(spread:pad, x1:0.505682, y1:0.699, x2:0.505682, y2:1, stop:0 rgba(255, 161, 29, 255), stop:1 rgba(255, 255, 255, 255));
+border: 3px solid orange;
+background-color: qlineargradient(spread:pad, x1:0.505682, y1:0.71, x2:0.505682, y2:0, stop:0 rgba(255, 161, 29, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>&quot;TOPICS&quot;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QComboBox" name="comboBox">
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid red; 
+    border-radius: 5px; 
+    padding: 5 px; 
+    font-size: 14 px; 
+    color: rgb(0, 0, 0); 
+}
+
+QComboBox:hover {
+    background-color: rgb(255, 248, 48);
+}
+
+</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="pushButton_linklist">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 13pt &quot;Small Fonts&quot;;
+border:4px solid rgb(255, 136, 0);
+background-color: qlineargradient(spread:pad, x1:0.505682, y1:0.340682, x2:0.534091, y2:1, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>LINKLIST</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="pushButton_trees">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 13pt &quot;Small Fonts&quot;;
+border:4px solid rgb(255, 136, 0);
+background-color: qlineargradient(spread:pad, x1:0.505682, y1:0.340682, x2:0.534091, y2:1, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>GRAPHS &amp; TREES</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="pushButton_stack">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 13pt &quot;Small Fonts&quot;;
+border:4px solid rgb(255, 136, 0);
+background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.488409, x2:0.505682, y2:0, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>STACK</string>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QPushButton" name="pushButton_queue">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 13pt &quot;Small Fonts&quot;;
+border:4px solid rgb(255, 136, 0);
+background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.488409, x2:0.505682, y2:0, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>QUEUES</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_7">
+      <attribute name="title">
+       <string>Exam</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="4" column="0">
+        <widget class="QPushButton" name="pushButton_11">
+         <property name="styleSheet">
+          <string notr="true">font: 900 italic 18pt &quot;Segoe UI Black&quot;;
+background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.488409, x2:0.505682, y2:0, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 255);
+border:2px solid red;</string>
+         </property>
+         <property name="text">
+          <string>NEXT</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QTextEdit" name="textEdit_5">
+         <property name="styleSheet">
+          <string notr="true">border:3px solid orange;
+font: 600 italic 12pt &quot;Segoe UI&quot;;
+background-color: white;
+color: rgb(255, 153, 10);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">font: 900 italic 18pt &quot;Segoe UI Black&quot;;
+background-color: qlineargradient(spread:pad, x1:0.505682, y1:0.71, x2:0.505682, y2:0, stop:0 rgba(255, 161, 29, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 255);
+border:2px solid orange;</string>
+         </property>
+         <property name="text">
+          <string>QUESTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">font: 900 italic 18pt &quot;Segoe UI Black&quot;;
+background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.488409, x2:0.505682, y2:0, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 255);
+border:2px solid red;</string>
+         </property>
+         <property name="text">
+          <string>ANSWER</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QTextEdit" name="textEdit_6">
+         <property name="styleSheet">
+          <string notr="true">border:3px solid red;
+font: 600 italic 12pt &quot;Segoe UI&quot;;
+background-color: white;
+color: rgb(255, 153, 10);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QPushButton" name="pushButton_10">
+         <property name="styleSheet">
+          <string notr="true">font: 900 italic 18pt &quot;Segoe UI Black&quot;;
+background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.488409, x2:0.505682, y2:0, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 255);
+border:2px solid red;</string>
+         </property>
+         <property name="text">
+          <string>SUBMIT</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_8">
+      <attribute name="title">
+       <string>Results</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="2" column="0">
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>-1</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton 
+{
+background-color: rgb(255, 255, 255); 
+	color: rgb(255, 0, 0);
+border: 2px solid orange;
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+}
+QPushButton:hover 
+{
+; 
+	background-color: rgb(255, 162, 0);
+}
+QPushButton:pressed 
+{
+background-color: rgb(45, 108, 190); 
+color: rgb(255, 255, 255);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Refresh</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="styleSheet">
+          <string notr="true">QPushButton 
+{
+background-color: rgb(255, 255, 255); 
+	color: rgb(255, 0, 0);
+border: 2px solid orange;
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+}
+QPushButton:hover 
+{
+; 
+	background-color: rgb(255, 162, 0);
+}
+QPushButton:pressed 
+{
+background-color: rgb(45, 108, 190); 
+color: rgb(255, 255, 255);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Exit</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QTableWidget" name="tableWidget_10">
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>-1</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTableWidget
+{
+background-color: rgb(255, 229, 83); 
+font-color: white; 
+border: 2px solid orange;
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+}
+QTableWidget:pressed 
+{
+background-color: rgb(255, 179, 0);
+font-color: rgb(255, 255, 255);
+}
+QTableWidget:column{
+	background-color: rgb(255, 170, 0);
+} 
+</string>
+         </property>
+         <column>
+          <property name="text">
+           <string>TOPIC</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Total Marks</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Obtained Marks</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>CONCLUSION</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label_5">
+         <property name="styleSheet">
+          <string notr="true">font: 900 italic 18pt &quot;Segoe UI Black&quot;;
+background-color: qlineargradient(spread:pad, x1:0.505682, y1:0.71, x2:0.505682, y2:0, stop:0 rgba(255, 161, 29, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(255, 255, 255);
+border:2px solid orange;</string>
+         </property>
+         <property name="text">
+          <string>RESULT</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+1. What is an object in Object Oriented Programming?
+2. What is the difference between inheritance and composition in OOP?
+3. What is the difference between an interface and an abstract class in OOP?
+4. What is encapsulation in Object Oriented Programming?
+5. What are the four main principles of Object Oriented Programming?
